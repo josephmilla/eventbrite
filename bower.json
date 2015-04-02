@@ -9,7 +9,8 @@
     "requirejs": "~2.1.10",
     "requirejs-text": "~2.0.10",
     "modernizr": "~2.7.1",
-    "bootstrap-material-design": "~0.3.0"
+    "bootstrap-material-design": "~0.3.0",
+    "chartist": "~0.7.3"
   },
   "devDependencies": {}
 }
