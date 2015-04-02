@@ -6,6 +6,12 @@ require.config
     bootstrap:
       deps: ['jquery'],
       exports: 'jquery'
+    material:
+      deps: ['jquery'],
+      exports: 'jquery'
+    ripples:
+      deps: ['jquery'],
+      exports: 'jquery'
   }
   paths:
     jquery: '../bower_components/jquery/dist/jquery'
