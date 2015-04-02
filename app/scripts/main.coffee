@@ -12,6 +12,8 @@ require.config
     backbone: '../bower_components/backbone/backbone'
     underscore: '../bower_components/lodash/dist/lodash'
     bootstrap: '../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap'
+    material: '../bower_components/bootstrap-material-design/scripts/material.js'
+    ripples: '../bower_components/bootstrap-material-design/scripts/ripples.js'
 
 require [
   'backbone'

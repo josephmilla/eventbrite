@@ -1,6 +1,8 @@
 $icon-font-path: "/bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
 
 @import 'bootstrap-sass-official/assets/stylesheets/bootstrap.scss';
+@import 'bootstrap-material-design/sass/material.scss';
+@import 'bootstrap-material-design/sass/ripples.scss';
 
 .browsehappy {
     margin: 0.2em 0;
