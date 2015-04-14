@@ -9,7 +9,7 @@ angular.module('eventbriteApp')
       socket.syncUpdates('thing', $scope.awesomeThings);
     });
 
-    console.log("jasldjlkasjd");
+    $scope.coordinates = '';
 
     $http({ method: 'GET', url: 'https://www.eventbriteapi.com/v3/events/?token=BKKRDKVUVRC5WG4HAVLT' }).
       success(function (data, status, headers, config) {
@@ -33,13 +33,11 @@ angular.module('eventbriteApp')
         }
 
         console.log(coordinates);
-
+        $scope.coordinates = coordinates;
       }).
       error(function (data, status, headers, config) {
         console.log("GET request wasn't successful");
       });
-
-    $scope.coordinates = coordinates;
 
     $scope.addThing = function() {
       if($scope.newThing === '') {
